@@ -912,7 +912,7 @@
     }
   },
   "coinbase": "0x0000000000000000000000000000000000000000",
-  "difficulty": "0x01",
+  "difficulty": "0x020000",
   "extraData": "",
   "gasLimit": "0x17D7840",
   "nonce": "0x1234",
