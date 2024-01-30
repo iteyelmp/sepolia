@@ -14,12 +14,10 @@
 
 exec geth \
   --sepolia \
-  --datadir /db \
-  --syncmode=full \
-  --verbosity ${EL_LOG_LEVL:-3} \
   --authrpc.jwtsecret /config/jwtsecret \
   --http \
   --http.addr=0.0.0.0 \
+  --http.api eth,net,engine,admin \
   --http.vhosts=* \
   --authrpc.vhosts="*" \
   --authrpc.addr=0.0.0.0 \
